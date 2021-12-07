@@ -12,6 +12,7 @@
     "lint": "npm run lint:file -- src/",
     "test": "jest",
     "test:watch": "npm test -- --watchAll",
+    "test:staged": "npm test -- --bail --findRelatedTests",
     "prepare": "husky install"
   },
   "dependencies": {
