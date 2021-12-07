@@ -9,7 +9,8 @@
     "format:file": "prettier --write --check",
     "format": "npm run format:file -- src/",
     "lint:file": "eslint --ext .ts,.js,.tsx,jsx --fix --cache",
-    "lint": "npm run lint:file -- src/"
+    "lint": "npm run lint:file -- src/",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^17.0.0",
@@ -25,8 +26,16 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
     "prettier": "^2.5.1",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "npm run lint:file",
+      "npm run format:file"
+    ]
   }
 }

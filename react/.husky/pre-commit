@@ -1,0 +1,9 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo '🏗️👷 Styling and testing your project before committing'
+
+# Edit the command sequence in package.json
+npx lint-staged
+
+echo '✅ All validation checks passed. Commiting... 🤘🏻'
