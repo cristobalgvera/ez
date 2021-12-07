@@ -6,6 +6,8 @@ Bootstrap project to easily start a new **React** application.
 
 ```bash
 npx degit cristobalgvera/ez/react YOUR_APP_NAME
+cd YOUR_APP_NAME
+
 git init
 yarn # npm i
 ```
