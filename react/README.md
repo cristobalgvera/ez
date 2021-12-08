@@ -12,6 +12,11 @@ git init
 yarn # npm i
 ```
 
+## :man_technologist: Development
+
+Bootstrapped project uses **[feature-sliced](https://feature-sliced.design/en/)** methodology. Inside you'll find initial structure for folders _(with some examples)_, including tests.
+
+If you don't want to follow this kind of structure, feel free to remove folders and do it in the way you want.
 
 ### :test_tube: Libs
 
