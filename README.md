@@ -19,5 +19,5 @@ Those projects are currently available:
 - React
 
 ```bash
-npx degit cristobalgvera/ez/react
+npx degit cristobalgvera/ez/react YOUR_APP_NAME
 ```
