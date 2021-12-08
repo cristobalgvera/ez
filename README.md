@@ -11,3 +11,13 @@ cd YOUR_APP_NAME
 git init
 yarn # npm i
 ```
+
+## Bootstrapped projects
+
+Those projects are currently available:
+
+- React
+
+```bash
+npx degit cristobalgvera/ez/react
+```
