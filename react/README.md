@@ -11,3 +11,18 @@ cd YOUR_APP_NAME
 git init
 yarn # npm i
 ```
+
+
+### :test_tube: Libs
+
+Project uses following libraries as core _(only React is not a developer dependency)_:
+
+- React.
+- TypeScript.
+- Vite.
+- Tailwind.
+- Jest.
+- ESLint.
+- Prettier.
+- Husky.
+- Lint Staged.
