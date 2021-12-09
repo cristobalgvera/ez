@@ -1,4 +1,4 @@
-# EZ :relieved:
+# :relieved: EZ
 
 Bootstrap projects to easily create applications with rich libraries support focused on DX.
 
@@ -12,11 +12,11 @@ git init
 yarn # npm i
 ```
 
-## Bootstrapped projects
+## :heavy_check_mark: Bootstrapped projects
 
 Those projects are currently available:
 
-- React
+- [React](./react/)
 
 ```bash
 npx degit cristobalgvera/ez/react YOUR_APP_NAME
