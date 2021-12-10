@@ -10,7 +10,7 @@ export function Counter() {
       className="flex flex-col items-center justify-center gap-y-4"
     >
       <div className="text-center">
-        <p className="text-2xl">{count}</p>
+        <p className="text-3xl font-semibold">{count}</p>
       </div>
       <div className="flex justify-center gap-x-2">
         <AppButton onClick={() => setCount(count - 1)} title="Decrement" />

@@ -7,7 +7,7 @@ export function Button({ title, onClick }: ButtonProps) {
   return (
     <button
       data-testid="button"
-      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      className="py-2 px-4 bg-blue-500 text-white font-bold rounded shadow-md shadow-blue-500/80 hover:bg-blue-600 hover:shadow-blue-600/80"
       onClick={onClick}
     >
       {title}
