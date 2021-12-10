@@ -29,7 +29,9 @@ const eslintConfig = {
       version: 'detect',
     },
   },
-  rules: {},
+  rules: {
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
+  },
 };
 
 module.exports = eslintConfig;
