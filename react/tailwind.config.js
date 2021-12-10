@@ -1,12 +1,8 @@
 /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
 const tailwindConfig = {
   mode: 'jit',
-  purge: ['src/**/*.{js,ts,jsx,tsx}', 'public/**/*.html'],
-  darkMode: false,
+  content: ['src/**/*.{js,ts,jsx,tsx}', 'public/**/*.html'],
   theme: {
-    extend: {},
-  },
-  variants: {
     extend: {},
   },
   plugins: [],
