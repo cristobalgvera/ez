@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { act, render } from '@testing-library/react';
 import { Counter } from './Counter';
 
 describe('basic counter feature', () => {
@@ -12,8 +12,13 @@ describe('basic counter feature', () => {
     const increaseButton = getByText('Increment');
     const countNumber = getByText('0');
 
-    increaseButton.click();
-    increaseButton.click();
+    act(() => {
+      increaseButton.click();
+    });
+
+    act(() => {
+      increaseButton.click();
+    });
 
     expect(countNumber.textContent).toBe('2');
   });
@@ -23,8 +28,13 @@ describe('basic counter feature', () => {
     const decreaseButton = getByText('Decrement');
     const countNumber = getByText('0');
 
-    decreaseButton.click();
-    decreaseButton.click();
+    act(() => {
+      decreaseButton.click();
+    });
+
+    act(() => {
+      decreaseButton.click();
+    });
 
     expect(countNumber.textContent).toBe('-2');
   });
